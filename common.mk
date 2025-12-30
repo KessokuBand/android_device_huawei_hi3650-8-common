@@ -77,6 +77,10 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libsensor_vendor
 
+# DeviceSettings with Glove Mode
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \

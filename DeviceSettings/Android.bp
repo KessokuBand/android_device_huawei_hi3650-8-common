@@ -1,0 +1,18 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+android_app {
+    name: "DeviceSettings",
+    platform_apis: true,
+    priv_app: true,
+    certificate: "platform",
+    sdk_version: "system_current",
+    resource_dirs: ["res"],
+    srcs: ["src/**/*.java"],
+    manifest: "AndroidManifest.xml",
+    static_libs: [
+        "androidx.preference_preference",
+        "androidx.appcompat_appcompat",
+    ],
+}

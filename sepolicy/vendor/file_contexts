@@ -1,0 +1,1 @@
+/sys/touchscreen/touch_glove    u:object_r:sysfs_touch_glove:s0
