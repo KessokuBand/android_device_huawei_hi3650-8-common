@@ -77,10 +77,6 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libsensor_vendor
 
-# DeviceSettings with Glove Mode
-PRODUCT_PACKAGES += \
-    DeviceSettings
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
@@ -154,10 +150,6 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.huawei
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service-hisi
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -234,9 +226,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
 # Power
-PRODUCT_PACKAGES += \
-    android.hardware.power-service.hisi-libperfmgr
-
 PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/cgroups_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
     system/core/libprocessgroup/profiles/task_profiles_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json

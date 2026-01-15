@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="device_settings_app_name">Device Settings</string>
-    <string name="glove_mode_title">Glove Mode</string>
-    <string name="glove_mode_summary">Improve touch sensitivity for use with gloves</string>
-</resources>

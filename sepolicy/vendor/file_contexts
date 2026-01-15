@@ -1,1 +1,2 @@
-/sys/touchscreen/touch_glove    u:object_r:sysfs_touch_glove:s0
+/sec_storage(/.*)?                   u:object_r:rootfs:s0
+/plash2(/.*)?                        u:object_r:rootfs:s0
